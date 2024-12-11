@@ -1,4 +1,23 @@
 # Recent Research Topics Related To LLM
+*Chain of Thought and AI Reasoning*
+
+| S.N | Topics | Overview | Date | Note |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | Significance of **Chain of Thought Reasoning** in Improving the safety and robustness of AI models like the OpenAI o1 model series | - **Advanced Reasoning**: O1 models use **Chain of Thought (CoT)** reasoning to handle complex tasks safely and effectively.<br>- **AI Safety Leadership**: Achieves top performance in avoiding harmful advice, bias, and jailbreaks.<br>- **Robust Risk Management**: Ensures safety with evaluations, red teaming, and stress-testing. | Dec, 2024 | [note](./openAI/README.md#openai-o1-system-card) |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
+
+*LLM*
+
+| S.N | Topics | Overview | Date | Note |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | Genie 2 | - **Advancement Over Genie 1**: Moves from generating 2D worlds to creating rich 3D environments with realistic physics, character animations, and agent behavior predictions.<br>- **Core Features**: Simulates complex interactions like jumping, swimming, and object manipulation. It ensures emergent abilities like lifelike animations and agent behavior predictions.<br>- **Training & User Interaction**: Trained on extensive video datasets for consistency. Users can design worlds via text prompts, rendered by Imagen 3, and interact using keyboard or mouse.<br>- **Applications**: Supports AI training, game development, interactive experiences, and behavioral research. | Dec, 2024 | [note](./llm/README.md#genie-2) |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+
 | S.N | Topics | Descriptions | Reference |
 | :--: | ---- | ---- | ---- |
 | 1 | **Reduce and Measure Hallucinations** | [Hallucinations](https://huyenchip.com/2023/05/02/rlhf.html#rlhf_and_hallucination), or the generation of incorrect or nonsensical information by LLMs, are a significant challenge in their practical application.<br><br>- **Impact:** Hallucinations hinder the adoption of LLMs in various industries as they can lead to misinformation and erode trust.<br>- **Research Focus:** Considerable effort is being invested in developing methods to detect, measure, and mitigate hallucinations.<br>- **Potential Solutions:** While there's no definitive solution yet, techniques like providing more context, using chain-of-thought prompting, and encouraging concise responses can help reduce hallucinations.<br><br>**Why LLMs hallucinate?**<br>- **Hypothesis 1: Lack of Understanding:** LLMs hallucinate because they don't fully grasp the consequences of their generated text.<br>- **Hypothesis 2: Mismatched Knowledge:** Hallucinations arise from discrepancies between the LLM's knowledge and the human labeler's knowledge during training.<br><br>**Potential Solutions**<br>- **Verification**: Asking LLMs to cite sources for their information.<br>- **Improved Reward Functions**: Developing reward systems that penalize hallucinations more severely. | [Reduce and measure hallucinations](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html#:~:text=1.-,Reduce%20and%20measure%20hallucinations,-Hallucination%20is%20a) |
@@ -9,4 +28,4 @@
 | 6 | **Develop GPU Alternatives** | **Domination of GPUs:**<br><br>- Since AlexNet (2012), GPUs have been the primary hardware for deep learning due to their efficiency compared to traditional CPUs.<br>- This accessibility for researchers fueled the deep learning boom.<br><br>**The Search for Alternatives:**<br><br>- Many companies have attempted to develop specialized AI hardware in the last decade:<br>    - Google's TPUs<br>    - Graphcore's IPUs (uncertain future)<br>    - Cerebras<br>    - SambaNova (shifted focus to generative AI platforms)<br><br>**Emerging Technologies:**<br><br>- **Quantum Computing:**<br>    - Companies like IBM and Google are making strides in quantum computing, with both commercial and research efforts underway.<br>- **Photonic Chips:** This exciting, less explored direction aims to use light (photons) instead of electricity for faster and more efficient data processing. Several startups are heavily invested in this area. |  |
 | 7 | **Make Agents Usable** | The concept of agents, which are LLMs capable of taking actions like browsing the Internet or making reservations, represents a relatively new research direction compared to others discussed. There's currently significant excitement and interest in agents due to their novelty and vast potential. Auto-GPT and GPT-Engineering are among the most popular GitHub repositories, reflecting the intense interest in this field.<br><br>Despite the enthusiasm, there are concerns about the reliability and performance of LLMs in handling the responsibility of taking actions. However, one emerging use case for agents is in social studies, as demonstrated by the Stanford experiment, where generative agents autonomously organized a Valentine's Day party, showcasing emergent social behaviors.<br><br>A notable player in this field is Adept, founded by two co-authors of the Transformer paper and an ex-OpenAI VP. Adept has raised significant funding and showcased a demo where their agent browsed the Internet and added a new account to Salesforce. Excitement surrounds upcoming demos from Adept, indicating the growing interest and potential in agent technology. |  |
 | 8 | **Proxy Tuning** | **Proxy-tuning is a way to adapt LLMs without changing the model's weights. This is especially attractive if a given LLM is too resource-intensive to train or if a user doesn't have access to the LLM's weights.**<br><br>**Understanding Proxy-Tuning**<br><br>Proxy-tuning provides a target LLM with the capabilities of a tuned version of itself without actually tuning it. |  |
-| 9 |  |  |  |
+
