@@ -1,4 +1,12 @@
 # Recent Research Topics Related To LLM
+*LLM Agents*
+
+| S.N | Topics | Overview | Date | Note |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | Towards Adaptive Mechanism Activation in Language Agent | - ALAMA helps language agents choose the best way to solve tasks without relying on fixed steps or expert models.<br>- It uses a framework called **UniAct** to unify different solution methods and allows the agent to adaptively pick the best one.<br>- Through **self-exploration**, the agent learns how to activate the right mechanisms based on the specific task, making it more flexible and efficient. | Dec, 2024 | [note](./llm-agent/README.md#towards-adaptive-mechanism-activation-in-language-agent) |
+| 2 |  |  |  |  |
+
+
 *Chain of Thought and AI Reasoning*
 
 | S.N | Topics | Overview | Date | Note |
@@ -17,6 +25,11 @@
 | 2 |  |  |  |  |
 | 3 |  |  |  |  |
 | 4 |  |  |  |  |
+*Reverse Thinking*
+
+| S.N | Topics | Overview | Date | Note |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | Reverse-Enhanced Thinking (REVTHINK) | **Reverse-Enhanced Thinking (REVTHINK)** is a framework designed to enable Large Language Models (LLMs) to perform reverse reasoning, a technique that enhances overall reasoning by allowing models to reason both from a problem to a solution and from a solution back to the problem. This dual process provides consistency checks that can improve model performance. | Nov, 2024 | [note](./reverse-thinking/README.md) |
 
 | S.N | Topics | Descriptions | Reference |
 | :--: | ---- | ---- | ---- |
