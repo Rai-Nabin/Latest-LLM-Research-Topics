@@ -1,4 +1,6 @@
 # Towards Adaptive Mechanism Activation in Language Agent
+*References:*
+- [Research Paper](https://arxiv.org/pdf/2412.00722)
 
 **Adaptive Language Agent Mechanism Activation Learning with Self-Exploration (ALAMA)** proposes a method to improve the adaptability of language agents, allowing them to select and activate the appropriate mechanisms based on task characteristics, without relying on predefined expert models.
 
