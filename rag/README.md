@@ -38,3 +38,20 @@
 **Significance:** Auto-RAG represents a step forward in integrating reasoning-based autonomy into retrieval-augmented systems, combining efficiency, transparency, and adaptability to redefine how LLMs interact with external knowledge sources.
 
 ![](./images/auto-rag.png)
+
+# RARE-Retrieval-Augmented-Reasoning-Enhancement-for-LLMs
+*References:*
+- [Research Paper](https://arxiv.org/pdf/2412.02830)
+
+- **Introduction of RARE**: RARE (Retrieval-Augmented Reasoning Enhancement) extends the mutual reasoning framework (rStar) to boost reasoning accuracy and factual integrity in large language models (LLMs).
+    
+- **Key Innovations**:
+    
+    - **Action A6**: Generates search queries from the problem statement, retrieves relevant information, and integrates it into the reasoning process to improve final answers.
+    - **Action A7**: Focuses on sub-questions, retrieves specific contextual information, and re-answers them for enhanced reasoning accuracy.
+- **Factuality Scorer**: Introduces a Retrieval-Augmented Factuality Scorer to prioritize paths with higher factual integrity, replacing the original discriminator in the framework.
+    
+- **Performance**: Experimental results show RARE enables open-source LLMs like LLaMA 3.1 to achieve performance comparable to closed-source models like GPT-4, especially in complex, knowledge-intensive tasks.
+    
+- **Applications**: Demonstrates scalability and effectiveness in domains requiring logical coherence and factual rigor, such as medical and commonsense reasoning.
+![](./images/rare.png)
