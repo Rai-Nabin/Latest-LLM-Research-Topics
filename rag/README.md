@@ -1,4 +1,7 @@
 # Auto-RAG
+*References:*
+- [Research paper](https://arxiv.org/pdf/2411.19443)
+
 1. **What is Iterative Retrieval?**
     
     - Iterative retrieval involves continuously refining and querying a retriever during the generation process. This helps in retrieving highly relevant information and improving the overall performance of Retrieval-Augmented Generation (RAG).
