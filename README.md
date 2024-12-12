@@ -17,12 +17,12 @@
 | 4 |  |  |  |  |
 | 5 |  |  |  |  |
 
-*LLM*
+*LLM / LLM Architecture* 
 
 | S.N | Topics | Overview | Date | Note |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | Genie 2 | - **Advancement Over Genie 1**: Moves from generating 2D worlds to creating rich 3D environments with realistic physics, character animations, and agent behavior predictions.<br>- **Core Features**: Simulates complex interactions like jumping, swimming, and object manipulation. It ensures emergent abilities like lifelike animations and agent behavior predictions.<br>- **Training & User Interaction**: Trained on extensive video datasets for consistency. Users can design worlds via text prompts, rendered by Imagen 3, and interact using keyboard or mouse.<br>- **Applications**: Supports AI training, game development, interactive experiences, and behavioral research. | Dec, 2024 | [note](./llm/README.md#genie-2) |
-| 2 |  |  |  |  |
+| 2 | MoE-Mamba | - **State Space Models (SSMs):** These models are emerging as a strong alternative to Transformers, the current dominant architecture for LLMs.<br>- **Mixture of Experts (MoE):** This technique has already shown success in improving Transformer-based LLMs, including recent open-source models.<br><br>**The Proposed Approach: MoE-Mamba**<br><br>- The authors propose combining SSMs with MoE to unlock even greater potential for scaling LLMs.<br>- They demonstrate this concept with MoE-Mamba, an enhanced version of the recent SSM-based model Mamba.<br><br>**MoE-Mamba's Advantages:**<br><br>- Outperforms both the original Mamba and a baseline Transformer-MoE model.<br>- Achieves the same performance as Mamba but in significantly fewer training steps (2.35x less).<br>- Maintains Mamba's benefits over Transformers in terms of inference efficiency.<br><br>**Overall:**<br><br>MoE-Mamba presents a promising new direction for LLM development by leveraging the strengths of both SSMs and MoE, leading to faster training times and potentially superior performance compared to traditional Transformer-based models. | Feb, 2024 | [paper](https://arxiv.org/pdf/2401.04081) |
 | 3 |  |  |  |  |
 | 4 |  |  |  |  |
 
@@ -45,6 +45,14 @@
 | S.N | Topics | Overview | Date | Note |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | DataLab | A unified Business Intelligence (BI) platform combining LLM-based agents with an augmented computational notebook interface, addressing inefficiencies in the BI workflow. | Dec 2024 | [note](./tools/README.md#datalab) |
+| 2 | AlphaCodium | AlphaCodium is a new approach to code generation by large language models (LLMs) that shifts the focus from prompt engineering to flow engineering. It follows a test-driven, multi-stage process that iteratively runs and fixes the generated code until it achieves complete accuracy. | Jan 2024 | note |
+
+*LLM Training*
+
+| S.N | Topics | Overview | Date | Note |
+| ---- | ---- | ---- | ---- | ---- |
+| 1 | Self-Rewarding LLMs | - Traditional reward models are bottlenecked by human performance and do not adapt during training.<br>- SRLMs allow the model to improve both its instruction-following ability and the quality of the rewards it generates for itself.<br>- The approach uses Iterative DPO training on Llama 2 70B, showing improved performance on the AlpacaEval 2.0 leaderboard, outperforming models like Claude 2, Gemini Pro, and GPT-4 0613.<br>- This method paves the way for models that can continually improve in both performance and reward generation. | Feb, 2024 | [note](./llm-training/README.md#self-rewarding-llms) |
+| 2 | ReFT: Reasoning with Reinforced Fine-Tuning | - **Chain-of-Thought (CoT) Annotations**: Supervised Fine-Tuning (SFT) with CoT annotations is limited by the availability of only one reasoning path per question, hindering generalization.<br>- **ReFT Approach**: ReFT addresses this by combining SFT with online reinforcement learning, specifically using the PPO (Proximal Policy Optimization) algorithm. The model is fine-tuned by sampling multiple reasoning paths for each question, with rewards derived from the correct answers.<br>- **Improved Performance**: Experiments on GSM8K, MathQA, and SVAMP datasets show that ReFT significantly outperforms SFT, achieving better generalization without requiring additional training data. Further performance gains can be obtained with inference-time strategies like majority voting and re-ranking. | Jun, 2024 | [note](./llm-training/README.md#reft) |
 
 | S.N | Topics | Descriptions | Reference |
 | :--: | ---- | ---- | ---- |
