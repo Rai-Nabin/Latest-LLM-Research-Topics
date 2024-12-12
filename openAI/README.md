@@ -41,4 +41,15 @@
 ### **Conclusion**:
 
 The report underscores the significance of **chain of thought reasoning** in improving the safety and robustness of AI models like the OpenAI O1 series. While these models show great promise in handling complex, risky scenarios with higher intelligence, they also raise the need for **meticulous alignment strategies**, extensive **safety testing**, and **risk management**. As these models evolve, continuous evaluation and improvement of safety mechanisms will be critical to ensure that they can be deployed in a way that maximizes their benefits while minimizing potential harms.
+# How-LLMs-rely-on-pretraining-data-for-reasoning-tasks?
+The study explores the generalization strategies employed by Large Language Models (LLMs), which exhibit both problem-solving abilities and surprising reasoning gaps when compared to human reasoning. The research analyzes how LLMs rely on pretraining data to perform reasoning tasks and compares this to factual question answering.
 
+### Key Points:
+
+- **Generalization Strategies**: LLMs, though capable of solving problems, demonstrate reasoning gaps, raising questions about the robustness of their generalization strategies.
+- **Methodology**: The study focuses on two LLMs (7B and 35B parameters) and 2.5B of their pretraining tokens. The models' responses to three mathematical reasoning tasks are compared to their responses to factual questions.
+- **Findings**:
+    - **Distinct Data for Factual vs. Reasoning Tasks**: For factual questions, the models rely on specific documents directly associated with the answers. In contrast, reasoning tasks often involve documents with procedural knowledge, such as those detailing how to solve problems with formulas or code.
+    - **Influence of Procedural Knowledge**: Reasoning answers do not always come from the most influential documents, and intermediate steps in reasoning are often not directly represented in the top-ranked documents.
+- **Conclusion**: The reasoning strategy used by LLMs is not retrieval-based but rather synthesizes procedural knowledge from documents demonstrating similar reasoning patterns.
+![](./images/reason-from-pretrain-data.png)
