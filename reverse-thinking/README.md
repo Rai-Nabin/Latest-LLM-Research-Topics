@@ -1,4 +1,7 @@
 # Reverse Thinking Makes LLMs Stronger Reasoners
+*References:*
+- [Research Paper](https://arxiv.org/pdf/2411.19865)
+
 - **Concept of Reverse Thinking**:
     
     - Humans employ reverse thinking by reasoning backward from a solution to verify or refine the problem.
