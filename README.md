@@ -31,13 +31,14 @@
 | S.N | Topics | Overview | Date | Note |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | Reverse-Enhanced Thinking (REVTHINK) | **Reverse-Enhanced Thinking (REVTHINK)** is a framework designed to enable Large Language Models (LLMs) to perform reverse reasoning, a technique that enhances overall reasoning by allowing models to reason both from a problem to a solution and from a solution back to the problem. This dual process provides consistency checks that can improve model performance. | Nov, 2024 | [note](./reverse-thinking/README.md) |
+
 *RAG*
 
 | S.N | Topics | Overview | Date | Note |
 | ---- | ---- | ---- | ---- | ---- |
 | 1 | Auto-RAG | - **Iterative Retrieval**: A process where models repeatedly query a retriever during content generation to enhance knowledge relevance and improve RAG (Retrieval-Augmented Generation).<br>- **Auto-RAG**: Introduces autonomous iterative retrieval, leveraging LLMs for planning and refining queries via multi-turn dialogues, improving efficiency and accuracy across tasks.<br>- **Key Advantages**: Auto-RAG adapts retrieval iterations based on query complexity, requires no human intervention, and uses natural language for better interpretability. | Nov, 2024 | [note](./rag/README.md#auto-rag) |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
 
 | S.N | Topics | Descriptions | Reference |
 | :--: | ---- | ---- | ---- |
